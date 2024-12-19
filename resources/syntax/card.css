@@ -1,0 +1,20 @@
+:root{
+    --width:290px;
+    --height:410px;
+}
+.container{
+    margin: auto;
+    width:var(--width);
+    height:var(--height);
+    transition: all 0.1s;
+}
+.card{
+    width:var(--width);
+    height:var(--height);
+    background-image: url(../images/back.png);
+    background-size: cover;
+}
+.set{
+    padding: 70px 0;
+    border: 3px solid rgb(112, 35, 255);
+}

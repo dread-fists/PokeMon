@@ -1,0 +1,35 @@
+:root{
+    --width:290px;
+    --height:410px;
+}
+.container{
+    margin: auto;
+    width:var(--width);
+    height:var(--height);
+    transition: all 0.1s;
+}
+.overlay{
+    margin: auto;
+    position: absolute;
+    width:var(--width);
+    height:var(--height);
+    background: linear-gradient(105deg,
+    transparent 40%,
+    rgba(255,219,112,0.8) 45%,
+    rgba(159, 95, 255, 0.6) 50%,
+    transparent 54%);
+    filter: brightness(1.0) opacity(1);
+    mix-blend-mode: color-dodge;
+    background-size: 150% 150%;
+    background-position: 100%;
+}
+.card{
+    margin: auto;
+    width:var(--width);
+    height:var(--height);
+    background-size: cover;
+}
+.set{
+    padding: 70px 0;
+    border: 3px solid rgb(112, 35, 255);
+}

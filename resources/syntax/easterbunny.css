@@ -1,0 +1,8 @@
+:root{
+    --width:2900px;
+    --height:4100px;
+}
+.theone{
+    width:var(--width);
+    height:var(--height);
+}
