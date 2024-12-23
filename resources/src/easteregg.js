@@ -1,5 +1,5 @@
 var time=92;
-const i=parseInt(Math.random()*2,10);
+const i=parseInt(Math.random()*3,10);
 console.log(i);
 var theone=document.querySelector('.theone');
 theone.style='background-image:url(../images/p'+i+'.png);';
