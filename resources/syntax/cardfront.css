@@ -3,9 +3,11 @@
     --height:410px;
 }
 .container{
+    position:relative;
     margin: auto;
     width:var(--width);
     height:var(--height);
+    transform-style: preserve-3d;
     transition: all 0.1s;
 }
 .overlay{
@@ -28,6 +30,16 @@
     width:var(--width);
     height:var(--height);
     background-size: cover;
+    backface-visibility: hidden;
+}
+.back{
+    position:absolute;
+    width:var(--width);
+    height:var(--height);
+    backface-visibility: hidden;
+    background-image: url(../images/back.png);
+    background-size: cover;
+    transform: rotateY(180deg);
 }
 .set{
     padding: 70px 0;
